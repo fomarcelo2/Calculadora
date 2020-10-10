@@ -1,0 +1,9 @@
+E:\adsi\III Trimestre\Programacion .NET\Clase III\Taller II\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+E:\adsi\III Trimestre\Programacion .NET\Clase III\Taller II\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+E:\adsi\III Trimestre\Programacion .NET\Clase III\Taller II\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+E:\adsi\III Trimestre\Programacion .NET\Clase III\Taller II\Calculadora\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+E:\adsi\III Trimestre\Programacion .NET\Clase III\Taller II\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+E:\adsi\III Trimestre\Programacion .NET\Clase III\Taller II\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+E:\adsi\III Trimestre\Programacion .NET\Clase III\Taller II\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+E:\adsi\III Trimestre\Programacion .NET\Clase III\Taller II\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+E:\adsi\III Trimestre\Programacion .NET\Clase III\Taller II\Calculadora\Calculadora\obj\Debug\Calculadora.frmCalculadora.resources
