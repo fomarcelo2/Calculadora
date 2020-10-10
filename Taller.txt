@@ -1,0 +1,1 @@
+Desarrollar una aplicacion que permita sumar, restar, multiplicar, dividir y encontrar el faltorial de dos numeros ingresados por el usuario
