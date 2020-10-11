@@ -28,6 +28,13 @@ namespace Calculadora
             btnSiete.Enabled = valor;
             btnOcho.Enabled = valor;
             btnNueve.Enabled = valor;
+            btnSuma.Enabled = valor;
+            btnResta.Enabled = valor;
+            btnMultiplicacion.Enabled = valor;
+            btnDivision.Enabled = valor;
+            btnModulo.Enabled = valor;
+            btnFactorial.Enabled = valor;
+            btnIgual.Enabled = valor;
             
         }
         private void btnSiete_Click(object sender, EventArgs e)
@@ -274,8 +281,18 @@ namespace Calculadora
             }
             else
             {
-                num = int.Parse(operador1);
-                lblResultado.Text = ejecutar.Factorial(num).ToString();
+                if (operador1.Contains("."))
+                {
+                    Deshabilitar(false);
+                    MessageBox.Show("Por favor ingrese valores enteros.");
+                }
+                else
+                {
+                    Deshabilitar(false);
+                    num = int.Parse(operador1);
+                    lblResultado.Text = ejecutar.Factorial(num).ToString();
+                }
+                
             }
         }
 
@@ -319,6 +336,37 @@ namespace Calculadora
             operador1 = "";
             operador2 = "";
             operacion = "";
+            Deshabilitar(true);
+        }
+
+        private void btnPunto_Click(object sender, EventArgs e)
+        {
+            if (operador1 == "" && operador2 == "")
+            {
+                MessageBox.Show("El valor ingresado es incorrecto");
+            }
+            else if (operador2 == "" && operador1 != "" && operacion!="")
+            {
+                MessageBox.Show("El valor ingresado es incorrecto");
+            }
+            else if (operador1.Contains(".") && operador2 =="")
+            {
+                MessageBox.Show("Valor no permitido");
+            }
+            else if (operador2.Contains(".") && operador1 != "" && operacion != "")
+            {
+                MessageBox.Show("Valor no permitido");
+            }
+            else if (operacion == "")
+            {
+                operador1 += ".";
+                lblInput.Text = operador1;
+            }
+            else if (operacion != "")
+            {
+                operador2 += ".";
+                lblInput.Text += ".";
+            }
         }
 
         public frmCalculadora()
